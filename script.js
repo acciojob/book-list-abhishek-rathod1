@@ -24,6 +24,7 @@ submitBtn.addEventListener('click',function buttonClick(){
 	
 	const deleteTd = document.createElement("td")
 	const deleteBtn = document.createElement("button");
+	deleteBtn.classList.add("delete")
 	deleteBtn.textContent = "X";
 	deleteBtn.style.color = "red";
 	
